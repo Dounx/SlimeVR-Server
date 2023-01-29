@@ -30,8 +30,10 @@ public class SerialHandler implements SerialPortMessageListener {
 
 	public boolean openSerial(String portLocation, boolean auto) {
 		if (this.isConnected()) {
-			if (trackerPort != null)
+			if (trackerPort != null) {
 				trackerPort.closePort();
+				System.out.println("closed port");
+			}
 		}
 
 		System.out.println("Trying to open:" + portLocation + "  auto: " + auto);

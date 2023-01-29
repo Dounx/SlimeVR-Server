@@ -70,6 +70,27 @@ export function ConnectTrackersPage() {
     };
   }, []);
 
+  useEffect(() => {
+    const id = setInterval(() => {
+      if (connectionStatus === 'START-CONNECTING' && state.wifi) {
+        if (!isSerialOpen) {
+          openSerial();
+          console.log('send open serial');
+        } else {
+          setConnectionStatus('CONNECTING');
+          if (!state.wifi) return;
+          const wifi = new SetWifiRequestT();
+          wifi.ssid = state.wifi.ssid;
+          wifi.password = state.wifi.password;
+          sendRPCPacket(RpcMessage.SetWifiRequest, wifi);
+        }
+      }
+    }, 3000);
+    return () => {
+      clearInterval(id);
+    };
+  }, [connectionStatus, isSerialOpen]);
+
   useRPCPacket(
     RpcMessage.SerialUpdateResponse,
     (data: SerialUpdateResponseT) => {
@@ -88,14 +109,6 @@ export function ConnectTrackersPage() {
 
       if (data.log) {
         const log = data.log as string;
-        if (connectionStatus === 'START-CONNECTING' && state.wifi) {
-          setConnectionStatus('CONNECTING');
-          if (!state.wifi) return;
-          const wifi = new SetWifiRequestT();
-          wifi.ssid = state.wifi.ssid;
-          wifi.password = state.wifi.password;
-          sendRPCPacket(RpcMessage.SetWifiRequest, wifi);
-        }
 
         if (log.includes('Connected successfully to SSID')) {
           setConnectionStatus('CONNECTED');
