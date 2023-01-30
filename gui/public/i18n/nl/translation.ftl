@@ -16,7 +16,7 @@ websocket-connection_lost = Verbinding met de server verbroken. Opniew verbindin
 ## Tips
 
 tips-find_tracker = Weet je niet welke tracker welke is? Schud een tracker en het corresponderende item zal worden gemarkeerd.
-tips-do_not_move_heels = Zorg ervoor dat je hielen tijdens het opnemen niet bewegen!
+tips-do_not_move_heels = Zorg ervoor dat je hielen niet bewegen tijdens de opname!
 
 ## Body parts
 
@@ -79,8 +79,8 @@ reset-quick = Snel resetten
 serial_detection-new_device-p0 = Nieuw serieel apparaat gedetecteerd!
 serial_detection-new_device-p1 = Voer je WiFi-inloggegevens in!
 serial_detection-new_device-p2 = Selecteer wat je wil doen
-serial_detection-open_wifi = Verbinden met WiFi
-serial_detection-open_serial = Open serieel console
+serial_detection-open_wifi = Verbinding maken met WiFi
+serial_detection-open_serial = Seriële console openen
 serial_detection-submit = Verzenden!
 serial_detection-close = Sluiten
 
@@ -184,7 +184,7 @@ tracker-part_card-unassigned = Niet toegewezen
 ## Body assignment menu
 
 body_assignment_menu = Waar wil je deze tracker bevestigen?
-body_assignment_menu-description = Kies een locatie waar je deze tracker wilt toewijzen. Alternatief kun je kiezen om alle trackers tegelijk te beheren in plaats van één voor één.
+body_assignment_menu-description = Kies een locatie waar je deze tracker wilt toewijzen. Als alternatief kun je kiezen om alle trackers tegelijk te beheren in plaats van één voor één.
 body_assignment_menu-show_advanced_locations = Geavanceerde bevestigingslocaties weergeven
 body_assignment_menu-manage_trackers = Beheer alle trackers
 body_assignment_menu-unassign_tracker = Tracker niet toewijzen
@@ -357,8 +357,8 @@ settings-general-interface-lang-placeholder = Selecteer de te gebruiken taal
 settings-serial = Seriele console
 # This cares about multilines
 settings-serial-description =
-    Dit is een live-informatiefeed voor seriële communicatie.
-    Kan nuttig zijn voor het debuggen van trackers.
+    Dit is een live informatiefeed voor seriële communicatie.
+    Kan handig zijn als u wilt weten dat de firmware werkt.
 settings-serial-connection_lost = Verbinding met seriële poort verloren, opnieuw verbinden...
 settings-serial-reboot = Opnieuw opstarten
 settings-serial-factory_reset = Fabrieksinstellingen herstellen
