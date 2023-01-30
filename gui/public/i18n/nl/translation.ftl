@@ -222,6 +222,13 @@ tracker_selection_menu-LEFT_CONTROLLER = { -tracker_selection-part } linkercontr
 tracker_selection_menu-unassigned = Niet toegewezen trackers
 tracker_selection_menu-assigned = Toegewezen trackers
 tracker_selection_menu-dont_assign = Niet toewijzen
+# This line cares about multilines.
+# <b>text</b> means that the text should be bold.
+tracker_selection_menu-neck_warning =
+    <b>Waarschuwing:</b> Een nektracker kan dodelijk zijn indien deze te strak wordt afgesteld,
+    de band kan de bloedsomloop naar je hoofd afsnijden!
+tracker_selection_menu-neck_warning-done = Ik begrijp de risico's
+tracker_selection_menu-neck_warning-cancel = Annuleren
 
 ## Mounting menu
 
@@ -355,6 +362,13 @@ settings-serial-description =
 settings-serial-connection_lost = Verbinding met seriële poort verloren, opnieuw verbinden...
 settings-serial-reboot = Opnieuw opstarten
 settings-serial-factory_reset = Fabrieksinstellingen herstellen
+# This cares about multilines
+# <b>text</b> means that the text should be bold
+settings-serial-factory_reset-warning =
+    <b>Waarschuwing:</b> Hiermee wordt de tracker teruggezet naar de fabrieksinstellingen.
+    Wat betekent dat Wi-Fi en kalibratie-instellingen <b>allemaal verloren gaan!</b>
+settings-serial-factory_reset-warning-ok = Ik weet wat ik doe
+settings-serial-factory_reset-warning-cancel = Annuleren
 settings-serial-get_infos = Informatie ophalen
 settings-serial-serial_select = Selecteer een seriële poort
 settings-serial-auto_dropdown_item = Automatisch
