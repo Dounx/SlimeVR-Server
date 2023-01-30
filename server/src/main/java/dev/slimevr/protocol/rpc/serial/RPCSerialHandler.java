@@ -79,6 +79,16 @@ public record RPCSerialHandler(RPCHandler rpcHandler, ProtocolAPI api) implement
 	}
 
 	@Override
+	public void onNewSerialDevice(SerialPort port) {
+
+	}
+
+	@Override
+	public void onSerialProvisioningStatusChange(String status) {
+
+	}
+
+	@Override
 	public void onSerialConnected(SerialPort port) {
 
 		FlatBufferBuilder fbb = new FlatBufferBuilder(32);

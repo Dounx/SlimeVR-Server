@@ -10,4 +10,8 @@ public interface SerialListener {
 	void onSerialDisconnected();
 
 	void onSerialLog(String str);
+
+	void onNewSerialDevice(SerialPort port);
+
+	void onSerialProvisioningStatusChange(String status);
 }
