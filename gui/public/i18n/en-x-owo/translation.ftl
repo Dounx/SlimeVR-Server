@@ -222,7 +222,6 @@ tracker_selection_menu-LEFT_CONTROLLER = { -tracker_selection-part } left contro
 tracker_selection_menu-unassigned = unassyigned twackaws
 tracker_selection_menu-assigned = assyigned twackaws
 tracker_selection_menu-dont_assign = do nawt assyign
-
 # This line cares about multilines.
 # <b>text</b> means that the text should be bold.
 tracker_selection_menu-neck_warning =
@@ -269,7 +268,7 @@ settings-general-steamvr-trackers-hands = pawbsies~
 ## Tracker mechanics
 
 settings-general-tracker_mechanics = twayckaw mechanics~
-settings-general-tracker_mechanics-filtering = fiwtering~
+settings-general-tracker_mechanics-filtering = fiwtewing~
 # This also cares about multilines
 settings-general-tracker_mechanics-filtering-description =
     chooce teh fiwwtewing type fow youw twackaws.
@@ -295,7 +294,7 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = nuwmbew
 
 settings-general-fk_settings = fk sewttings
 settings-general-fk_settings-leg_tweak = leg tweeks
-settings-general-fk_settings-leg_tweak-description = floo-cwip can wowduce owow even ewiminates cwipping with teh fwoor but may cause pwobweems when on yowur neeys. skayting-cowwection cowwects fow wowce skating, but can wowcyancy accuwowacy in cewtain wowvement wowttewns.
+settings-general-fk_settings-leg_tweak-description = floo-cwip can wowduce owow even ewiminates cwipping with teh fwoow but may cause pwobweems when on yowuw neeys. skayting-cowwection cowwects fow wowce skating, but can wowcyancy accuwowacy in cewtain wowvement wowttewns.
 # Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
@@ -574,7 +573,7 @@ onboarding-automatic_proportions-start_recording-title = get wowdy to move
 onboarding-automatic_proportions-start_recording-description = we'we now going to wowcawd some specific poses and moves. these will be pwompted in teh wowst screen. be wowdy to stawt when teh buttawn is pwessed!
 onboarding-automatic_proportions-start_recording-next = stawt wowcawding
 onboarding-automatic_proportions-recording-title = wowcawd
-onboarding-automatic_proportions-recording-description-p0 = wowcawding in pwowgress...
+onboarding-automatic_proportions-recording-description-p0 = wowcawding in pwowgwess...
 onboarding-automatic_proportions-recording-description-p1 = make teh moves shown bowow:
 onboarding-automatic_proportions-recording-steps-0 = bend knees a few times.
 onboarding-automatic_proportions-recording-steps-1 = sit on a chayaw then stawnd up.
