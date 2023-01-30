@@ -10,7 +10,7 @@
 
 ## Websocket (server) status
 
-websocket-connecting = Verbinding maken met de server
+websocket-connecting = Stimky pony
 websocket-connection_lost = Verbinding met de server verbroken. Opniew verbinding maken...
 
 ## Tips
